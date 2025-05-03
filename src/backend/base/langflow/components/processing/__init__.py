@@ -12,6 +12,7 @@ from .parse_data import ParseDataComponent
 from .parse_json_data import ParseJSONDataComponent
 from .parser import ParserComponent
 from .regex import RegexExtractorComponent
+from .save_to_file_with_link import TextFileDownloadComponent
 from .select_data import SelectDataComponent
 from .split_text import SplitTextComponent
 from .update_data import UpdateDataComponent
@@ -34,5 +35,6 @@ __all__ = [
     "RegexExtractorComponent",
     "SelectDataComponent",
     "SplitTextComponent",
+    "TextFileDownloadComponent",
     "UpdateDataComponent",
 ]
